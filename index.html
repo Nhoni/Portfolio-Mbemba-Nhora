@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta name="Content-Type" content="UTF-8">
+    <meta name="Content-Language" content="fr">
+    <meta name="Description" content="Bonjour, voici mon portfolio.">
+    <meta name="Subject" content="Developpeuse web">
+    <meta name="Copyright" content="Nhora">
+    <meta name="Author" content="Nhora">
+    <meta name="Robots" content="index">
+    <meta name="Rating" content="general">
+    <meta name="Distribution" content="global">
+    <meta name="Geography" content="France">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./ressources/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Portfolio Mbemba Nhora</title>
+</head>
+<body>
+
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="logo">
+            <a href="#accueil">
+            <img src="./img/logo_p.png" alt="Logo portfolio" style="height: 50px;" ></a>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="menu" id="menu">
+        
+            <li><a href="#a-propos">À propos</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#projet">Projet</a></li>
+            <li><a href="#formulaire">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- acceuil -->
+    <div class="content_acc"id="accueil">
+        <div id="accueil"  class="acceuil-section">
+            <h1>MBEMBA Nhora</h1>
+            <p class="text_accueil"> Developpeuse d'application multimédia</p>
+            <a href="#a-propos" class="roll-button button-slider">Qui-suis je ?</a>
+        </div>
+    </div>
+
+    <!-- A propos -->
+    <div class="content_apropos"id="a-propos">
+        <h2>A propos de moi</h2>
+        <div  class="apropos-section">
+        
+            <div class="photos-p">
+                <img src="./img/ma_^photos.jpg" alt="Mbemba Nhora" style="height: 300px;">
+            </div>
+            
+            <p>J’ai suivi la formation Développeur d'application multimédia au sein du centre de formation <a style="color: #f3900ec7;" href="https://alt-rh.com/alt-rh-propose-diverses-formations/developpeur-dapplications-multimedia/" target="_blank" rel="noopener">Alt-Rh</a>.
+                <br> Suite à cette formation, j’ai eu l'envie d'en découvrir plus.<br>
+                C'est pourquoi j'ai commencer cette année la formation de concepteur développeur d'aplication chez <a style="color: #f3900ec7;" href="" target="_blank" rel="noopener">Prepavenir-formation</a>.<br>J'aimerais me spécialisé dans le développement front-end.
+            </p>
+            
+        </div>
+    </div>
+
+    <!-- compétences -->
+    <div class="content_competences" id="competences">
+        <h2>Compétences</h2>
+        <div  class="competences-section">
+
+            <div class="photos-p">
+                <img src="./img/cv_photo.PNG" alt="Mbemba Nhora" style="height: 300px;">
+            </div>
+
+            <div id="bar_front">
+                <p><strong>front-end</strong></p>
+                <label for="file">HTML</label>
+                <progress id="file_" max="100" value="70">70%</progress>
+                <label for="file">Css</label>
+                <progress id="file_" max="100" value="70">70%</progress>
+                <label for="file">Js</label>
+                <progress id="file_" max="100" value="50">50%</progress>
+
+                <p><strong>Back-end</strong></p>
+                <label for="file">Symfony</label>
+                <progress id="file_" max="100" value="40">40%</progress>
+                <label for="file">Php</label>
+                <progress id="file_" max="100" value="40">40%</progress>
+
+                <p><strong>infographie</strong></p>
+                <label for="file">Canva</label>
+                <progress id="file_" max="100" value="70">70%</progress>
+                <label for="file">Figma</label>
+                <progress id="file_" max="100" value="60">50%</progress>
+                <label for="file">Adobe XD</label>
+                <progress id="file_" max="100" value="50">50%</progress>
+            </div>
+        </div>
+
+        <a href = "./img/ressources/MBEMBA_Nhora_Developpeuse_d'application_multimédia.pdf" Download = "">
+                <button class="roll-button" type = "button">Télécharger mon cv</button>
+        </a>
+       
+	</div>
+
+    <!-- Projets -->
+<div class="content_projet" id="projet">
+    <div class="projet_section">
+    <h2>Mes projets</h2>
+        <div>
+            <img class="projet_img" src="./img/mon portfolio_img.PNG" alt="image_portfolio_Mbemba_Nhora">
+        </div>
+        <!-- <a href="">le site sur lequel vous etes</a> -->
+        
+    </div>
+   
+</div>
+
+    <!-- Formulaire -->
+    <div class="bg">
+    <div class="container" id="formulaire">
+        <h4>Contactez-moi</h4>
+        <form id="contact-form">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+</div>
+
+
+    <!-- footer -->
+    <footer>
+        <a href="https://www.linkedin.com/in/nhora-mbemba-b878b2207" target="_blank"><iconify-icon icon="grommet-icons:linkedin" style="color: white;" width="32" height="32"></iconify-icon></a>
+        <a href="https://github.com/Nhoni" target="_blank"><iconify-icon icon="openmoji:github" width="32" height="32"></iconify-icon></a>
+        
+        <p id="copyright" style="color: #fff;;">© Copyright 2023 - MBEMBA Nhora. Tous droits réservés.</p>
+    </footer>
+
+<script src="./js/nav.js"></script>
+<script src="./js/formulaire.js"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+</html>
