@@ -753,6 +753,7 @@ footer img:hover {
 .foot_form{
   text-align: center;
   padding: 20px;
+  
 }
 /* Règles de médias queries pour les tablettes (largeur d'écran entre 768px et 1023px) */
 @media (min-width: 768px) and (max-width: 1023px) {
