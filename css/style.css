@@ -118,10 +118,11 @@ a:hover {
   .menu.active {
       display: flex;
       flex-direction: column;
-      background-color: #33333300; 
+      background-color: #333; 
       position: absolute;
       top: 60px; 
       right: 0;
+      width: 100%;
   }
   .menu li {
       margin: 10px 0;
@@ -144,6 +145,7 @@ a:hover {
       position: absolute;
       top: 60px; 
       right: 0;
+      width: 100%;
   }
   .menu li {
       margin: 10px 0;
@@ -391,19 +393,30 @@ label {
 
 
 
-/* -----------------------------------------Projet------------------------------- */
+/* ------------------------------------------------------- Projet -------------------------------------------------------- */
 
 .content_projet {
+  padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin: 10rem;
+  background-color:  #48454518;
+}
+.content_projet h2  {
+  margin-bottom: 5rem;
 }
 
+.content_projet a  {
+  color: orange;
+  text-decoration: none;
+}
 .projet_img {
   width: 600px;
-  filter: blur(5px); /* Applique un flou par défaut */
+  filter: blur(5px); 
   transition: filter 0.3s;
+  margin-bottom: 1rem;
 }
 
 .projet_img:hover {
@@ -426,6 +439,11 @@ label {
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.062);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 
 h4 {
@@ -437,18 +455,20 @@ h4 {
 form {
   display: flex;
   flex-direction: column;
+
 }
 
 label {
   font-weight: bold;
-  margin-top: 10px;
+  
 }
 
 input, textarea {
   padding: 10px;
   margin: 5px 0;
   border: 1px solid #ccc;
-  border-radius: 3px;
+
+
 }
 
 button {
@@ -471,6 +491,10 @@ button {
   text-transform: uppercase;
   border-radius: 3px;
   transition: all 0.3s;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }
 
 button:hover {
