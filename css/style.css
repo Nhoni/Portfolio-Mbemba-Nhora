@@ -379,8 +379,6 @@ h1 {
     line-height: 16px; 
     padding: 6px 20px;
   }
-
-  
 }
 
 
@@ -752,6 +750,10 @@ footer img:hover {
     margin-top: 1rem;
 }
 
+.foot_form{
+  text-align: center;
+  padding: 20px;
+}
 /* Règles de médias queries pour les tablettes (largeur d'écran entre 768px et 1023px) */
 @media (min-width: 768px) and (max-width: 1023px) {
   footer img {
