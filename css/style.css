@@ -71,8 +71,8 @@ li {
     font-weight: bold;
 }
 
-a:hover {
-    border-bottom: 2px solid #f3900ec7;
+.menu a:hover {
+  color: gold;
 }
 
 /* Logo nav */
@@ -275,6 +275,9 @@ h1 {
   transition: all 0.3s;
 }
 
+.roll-button:hover {
+  background-color: #555;
+}
 .acceuil-section {
   color: #fff;
   text-align: center;
@@ -445,6 +448,10 @@ h1 {
   align-items: center;
   text-align: left;
   flex-direction: row-reverse;
+}
+
+.projet_image_cv:hover{
+  box-shadow: 10px 5px 5px grey ;
 }
 
 label {
